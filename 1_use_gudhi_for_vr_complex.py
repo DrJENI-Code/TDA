@@ -19,7 +19,7 @@ import gudhi.representations
 np.random.seed(42)
 num_points = 25
 points = np.random.uniform(-1, 1, size=(num_points, 2))
-print(data_points)
+print(points)
 
 #step 2: Construct VR complex
 edge_length = 1.5
@@ -35,7 +35,7 @@ print(persistence)
 #Step 5: Visualize Scatter plot of points, Persistence diagram, Persistnce Barcodes
 #Visualize Scatter plot
 plt.figure(figsize=(5,5))
-plt.scatter(data_points[:,0], points[:,1], c = 'blue', label = 'Data Points')
+plt.scatter(points[:,0], points[:,1], c = 'blue', label = 'Data Points')
 plt.legend()
 plt.title('Scatter plot for random data points')
 plt.show()
