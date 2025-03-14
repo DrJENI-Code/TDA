@@ -1,4 +1,4 @@
-# My First GitHub Project 🎉
+# GUDHI for Veitoris-Rips Complexes 🎉
 This project contains my Python scripts related to Persistent Homology.  
 
 ## Features
